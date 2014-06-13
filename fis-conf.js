@@ -48,7 +48,7 @@ fis.config.set('roadmap.domain', {
 //打包配置
 fis.config.set('pack', {
     //lib目录的文件按序合并成一个lib.js文件
-    'pkg/lib.js': [ 'lib/amd.js', 'lib/jquery-1.11.1.js' ],
+    'pkg/lib.js': [ 'lib/md.js', 'lib/jquery-1.11.1.js' ],
     //mod目录下的所有js文件合并成一个mod.js
     'pkg/mod.js': 'mod/**.js',
     //其他js文件合成一个others.js

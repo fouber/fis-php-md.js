@@ -1,4 +1,4 @@
-fis与php结合，加一个极小极小的amd框架
+fis与php结合，加一个极小极小的模块定义框架
 ===========================
 
 > 集成了静态资源管理系统，适合php作为模板语言的中小型项目
@@ -45,7 +45,7 @@ fis与php结合，加一个极小极小的amd框架
     
     <?php css(); ?> <!-- 在这里输出link标签 -->
     
-    <?php import('lib/amd.js'); ?> <!-- 收集资源 -->
+    <?php import('lib/md.js'); ?> <!-- 收集资源 -->
     <?php import('lib/jquery-1.11.1.js'); ?> <!-- 收集资源 -->
     <?php import('lib/reset.css'); ?> <!-- 收集资源 -->
 
@@ -133,7 +133,7 @@ fis.config.set('roadmap.domain', {
 //打包配置
 fis.config.set('pack', {
     //lib目录的文件按序合并成一个lib.js文件
-    'pkg/lib.js': [ 'lib/amd.js', 'lib/jquery-1.11.1.js' ],
+    'pkg/lib.js': [ 'lib/md.js', 'lib/jquery-1.11.1.js' ],
     //mod目录下的所有js文件合并成一个mod.js
     'pkg/mod.js': 'mod/**.js',
     //其他js文件合成一个others.js

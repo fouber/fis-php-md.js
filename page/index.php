@@ -6,7 +6,7 @@
     
     <?php css(); ?> <!-- 在这里输出link标签 -->
     
-    <?php import('lib/amd.js'); ?> <!-- 收集资源 -->
+    <?php import('lib/md.js'); ?> <!-- 收集资源 -->
     <?php import('lib/jquery-1.11.1.js'); ?> <!-- 收集资源 -->
     <?php import('lib/reset.css'); ?> <!-- 收集资源 -->
 
